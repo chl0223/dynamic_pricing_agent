@@ -38,9 +38,9 @@ To prevent early stockouts and reduce leftover inventory, we integrated an inven
 
 The core innovation is an adaptive framework that identifies opponent behavior before selecting the optimal counter-strategy. This was crucial for avoiding the low-profit outcomes of DP vs. DP price wars ($\sim 3\text{K}-4\text{K}$).
 
-* **Detection Phase:** In the first 80 steps, the agent collects opponent quotes and calculates two price stability indicators: Price Standard Deviation ($\text{price\_std}$) and Small Change Ratio ($\text{frac\_small\_move}$).
+* **Detection Phase:** In the first 80 steps, the agent collects opponent quotes and calculates two price stability indicators: Price Standard Deviation (`price_std`) and Small Change Ratio (`frac_small_move`).
 * **Classification and Optimal Deployment:**
-    * **Against Static/Predictable Opponent ($\text{price\_std} < 15$):** Deploys the DP Agent (designed for stable revenue).
+    * **Against Static/Predictable Opponent (`price_std` < 15$):** Deploys the DP Agent (designed for stable revenue).
     * **Against Dynamic/Reactive Opponent:** Deploys the Multiplier Agent (designed to compete effectively against volatile pricing).
 
 ### 2. Strategic Insights from Simulation
