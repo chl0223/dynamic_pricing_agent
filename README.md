@@ -61,7 +61,7 @@ Local simulation helped derive a "payoff matrix" confirming the strategy was dep
 
 ---
 
-## 🛠️ Tools and Technologies
+## Tools and Technologies
 
 | Category | Tools & Libraries | Key Application |
 | :--- | :--- | :--- |
